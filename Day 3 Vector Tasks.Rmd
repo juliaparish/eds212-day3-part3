@@ -1,0 +1,56 @@
+---
+title: "EDS 212 Day 3 Vector tasks"
+author: "Julia Parish"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Using the c() function, create and store two new vectors, called vec_a and vec_b, where a⃗ =(1,6) and b⃗ =(2,4):
+
+```{r}
+# Vec_a
+
+vec_a <- c(1 , 6)
+
+```
+
+```{r}
+# vec_b
+
+vec_b <- c(2 , 4)
+
+```
+
+## Check your by-hand solutions from Part 1 by finding the following in R:
+
+
+```{r}
+vec_c <- vec_a + vec_b
+
+```
+
+```{r}
+
+vec_d <- vec_b - vec_a
+
+```
+## Vector scalar multiplier:
+
+```{r}
+vec_e <- 4 * vec_a
+
+```
+
+## The correct operator for a Dot Product is %*%
+
+```{r}
+
+vec_f <- vec_a %*% vec_b
+
+```
+
+
